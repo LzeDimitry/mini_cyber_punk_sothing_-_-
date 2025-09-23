@@ -4,34 +4,37 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     //"height": 13,// Waybar height (to be removed for auto height)
     "width": 1920, // Waybar width
-    "spacing": 2, // Gaps between modules (4px)
+    "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "custom/arch",
+        "hyprland/workspaces",
         //"custom/search",
-        "cpu",
-        "memory",
-        "temperature",
-        "battery",
-        "power-profiles-daemon",
+        //"cpu",
+        //"memory",
+        //"temperature",
+        //"battery",
+        //"power-profiles-daemon",
         //"custom/cava_mviz",
         "mpris"
         //"wlr/taskbar",
         //"hyprland/window"
         
     ],
-    "modules-center": [
-        "hyprland/workspaces"
-    ],
+    //"modules-center": [
+      //  "hyprland/workspaces"
+    //],
     "modules-right": [
-        "idle_inhibitor",
-        "pulseaudio",
-        "backlight",
+      "battery",
+      "temperature",
+        //"idle_inhibitor",
+        //"pulseaudio",
+        //"backlight",
         "network",
-        "bluetooth",
-        "tray",
+        //"bluetooth",
+        //"tray",
         //"custom/swaync",
-        "clock",
+        "clock"
         
     ],
     //Modules configuration
