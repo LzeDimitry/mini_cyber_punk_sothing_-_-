@@ -14,9 +14,9 @@ while true; do
 
     # Set wallpaper based on the value of i
     if [ $i -eq 0 ]; then
-        swww img /home/ras/Picture/wallpaper/omg/Zero.jpg
+        awww img /home/ras/.config/Wallpapers//Zero.jpg
     elif [ $i -eq 1 ]; then
-        swww img /home/ras/Picture/wallpaper/omg/Two.jpg
+        awww img /home/ras/.config/Wallpapers//Two.jpg
     fi
 
     # Wait for 10 minutes (600 seconds)
